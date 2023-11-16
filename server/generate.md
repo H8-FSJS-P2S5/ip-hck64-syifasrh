@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string
+npx sequelize-cli model:generate --name Item --attributes name:string,price:integer,imgUrl:string
+npx sequelize-cli model:generate --name Order --attributes UserId:integer,ItemId:integer,subdistrict:string,city:string,province:string,address:string,quantity:integer,shippingFee:integer,totalPayment:integer,paymentStatus:string
